@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Logistica - Shipping Company Website Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow border-top border-5 border-primary sticky-top p-0">
+        <a href="index.html" class="navbar-brand bg-primary d-flex align-items-center px-4 px-lg-5">
+            <h2 class="mb-2 text-white">pollution and natural disasters</h2>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarcollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class=" navbar-collapse" id="navbarcollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link ">home</a>
+                <!-- <a href="pollution.html" class="nav-item nav-link">pollution</a> -->
+                <!-- <a href="natural-disasters.html" class="nav-item nav-link">natural disasters</a> -->
+                <div class="nav-item dropdown">
+                    <a href="disasters.html" class="nav-item nav-link dropdown-toggle" data-bs-toggle="dropdown">natural disasters</a>
+                    <div class="dropdown-menu fade-up m-0">
+                        <a href="floods.html" class="dropdown-item">floods</a>
+                        <a href="tsunamis.html" class="dropdown-item">tsunamis</a>
+                        <a href="storms.html" class="dropdown-item">storms</a>
+                        <a href="earthquakes.html" class="dropdown-item">earthquakes</a>
+                        <a href="wildfires.html" class="dropdown-item">wildfires</a>
+              
+                    </div>
+                </div>
+                <div class="nav-item dropdown ">
+                    <a href="pollution.html" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">pollution</a>
+                    <div class="dropdown-menu fade-up m-0">
+                        <a href="air.html" class="dropdown-item">air pollution</a>
+                        <a href="water.html" class="dropdown-item">water pollution</a>
+                        <a href="land.html" class="dropdown-item">land pollution</a>
+                        <a href="trash.html" class="dropdown-item">trash</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown ">
+                    <a href="do.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">what can we do</a>
+                    <div class="dropdown-menu fade-up m-0">
+                        <a href="background.html" class="dropdown-item">surabaya background</a>
+                        <a href="solution.html" class="dropdown-item">solutions</a>
+                        <a href="correlation.html" class="dropdown-item">correlations</a>
+                    </div>
+                </div>
+            </div>
+        <!--     <h4 class="m-0 pe-lg-5 d-none d-lg-block"><i class="fa fa-headphones text-primary me-3"></i>+012 345 6789</h4> -->
+        <!-- </div> -->
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header py-5" style="margin-bottom: 6rem;
+    background: linear-gradient(rgba(6, 3, 21, .5), rgba(6, 3, 21, .5)), url(img/water.jpg) center center no-repeat;">
+        <div class="container py-5">
+            <h1 class="display-3 text-white mb-3 animated slideInDown">Water Pollution</h1>
+        </div>
+    </div>
+    <!-- Page Header End -->
+       <!-- Content start -->
+    <div class="flex overflow-hidden flex-col w-2/3 pl-16">
+        <div class="tabgroup">
+            <button class="mx-8 tablinks py-6 px-8" onclick="openCity(event, 'London')" id="open">Overview</button>
+            <button class="mx-8 tablinks py-6 px-8" onclick="openCity(event, 'Paris')">Impact</button>
+            <button class="mx-8 tablinks py-6 px-8" onclick="openCity(event, 'Tokyo')">Response</button>
+        </div>
+    
+    <!-- Tab content -->
+        <div id="London" class="p-8 tabcontent">
+            <h3>Overview</h3>
+            
+            <p>
+                Safe and readily available water is important for public health, whether it is used for drinking, domestic use, food production or recreational purposes. Improved water supply and sanitation, and better management of water resources, can boost countries’ economic growth and can contribute greatly to poverty reduction.
+            </p>
+            <p>In 2010, the UN General Assembly explicitly recognized the human right to water and sanitation. Everyone has the right to sufficient, continuous, safe, acceptable, physically accessible and affordable water for personal and domestic use.</p>
+            <br>
+            <p>Safe drinking-water, sanitation and hygiene are crucial to human health and well-being. Safe WASH is not only a prerequisite to health, but contributes to livelihoods, school attendance and dignity and helps to create resilient communities living in healthy environments.
+
+Drinking unsafe water impairs health through illnesses such as diarrhoea, and untreated excreta contaminates groundwaters and surface waters used for drinking-water, irrigation, bathing and household purposes. 
+
+Chemical contamination of water continues to pose a health burden, whether natural in origin such as arsenic and fluoride, or anthropogenic such as nitrate.</p>
+            <br>
+        
+            <p>Sustainable Development Goal target 6.1 calls for universal and equitable access to safe and affordable drinking water. The target is tracked with the indicator of “safely managed drinking water services” – drinking water from an improved water source that is located on premises, available when needed, and free from faecal and priority chemical contamination.</p>
+            <br>
+            <p>Contaminated water and poor sanitation are linked to transmission of diseases such as cholera, diarrhoea, dysentery, hepatitis A, typhoid and polio. Absent, inadequate, or inappropriately managed water and sanitation services expose individuals to preventable health risks. This is particularly the case in health care facilities where both patients and staff are placed at additional risk of infection and disease when water, sanitation and hygiene services are lacking.</p>
+            <br>
+            <p>Inadequate management of urban, industrial and agricultural wastewater means the drinking-water of hundreds of millions of people is dangerously contaminated or chemically polluted. Natural presence of chemicals, particularly in groundwater, can also be of health significance, including arsenic and fluoride, while other chemicals, such as lead, may be elevated in drinking-water as a result of leaching from water supply components in contact with drinking-water.</p>
+        </div>
+        
+        <div id="Paris" class="p-8 tabcontent">
+            <h3>Impact</h3>
+            <br>
+            <p>In 2022, 6 billion people used safely managed drinking-water services – that is, they used improved water sources located on premises, available when needed, and free from contamination. The remaining 2.2 billion people without safely managed services in 2022 included:</p>
+            <ul class="list-disc">
+                <li>1.5 billion people with basic services, meaning an improved water source located within a round trip of 30 minutes;</li>
+                <li>292 million people with limited services, or an improved water source requiring more than 30 minutes to collect water;</li>
+                <li>296 million people taking water from unprotected wells and springs; and</li>
+                <li>115 million people collecting untreated surface water from lakes, ponds, rivers and streams.</li>
+            </ul>
+            <br>
+            <p>Some 1 million people are estimated to die each year from diarrhoea as a result of unsafe drinking-water, sanitation and hand hygiene. Yet diarrhoea is largely preventable, and the deaths of 395 000 children aged under 5 years could be avoided each year if these risk factors were addressed. Where water is not readily available, people may decide handwashing is not a priority, thereby adding to the likelihood of diarrhoea and other diseases.</p>
+            <br>
+            <p>Diarrhoea is the most widely known disease linked to contaminated food and water but there are other hazards. In 2021, over 251.4 million people required preventative treatment for schistosomiasis – an acute and chronic disease caused by parasitic worms contracted through exposure to infested water.</p>
+            <br>
+            <p>In many parts of the world, insects that live or breed in water carry and transmit diseases such as dengue fever. Some of these insects, known as vectors, breed in clean, rather than dirty water, and household drinking water containers can serve as breeding grounds. The simple intervention of covering water storage containers can reduce vector breeding and may also reduce faecal contamination of water at the household level.</p>
+            <br>
+            <p>Safe drinking-water, sanitation and hygiene (WASH) are crucial to human health and well-being. Safe WASH is not only a prerequisite to health, but contributes to livelihoods, school attendance and dignity and helps to create resilient communities living in healthy environments. Drinking unsafe water impairs health through illnesses such as diarrhoea, and untreated excreta contaminates groundwaters and surface waters used for drinking-water, irrigation, bathing and household purposes. This creates a heavy burden on communities. Chemical contamination of water continues to pose a health burden, whether natural in origin such as arsenic and fluoride, or anthropogenic such as nitrate. Safe and sufficient WASH plays a key role in preventing numerous neglected tropical diseases (NTDs) such as trachoma, soil-transmitted helminths and schistosomiasis.</p>
+            <br>
+            <p>Evidence suggests that improving service levels towards safely managed drinking-water or sanitation such as regulated piped water or connections to sewers with wastewater treatment can dramatically improve health by reducing diarrhoeal disease deaths.</p>
+        </div>
+        
+        <div id="Tokyo" class="p-8 tabcontent">
+            <h3>Response</h3>
+            <br>
+            <p>As the international authority on public health and water quality, WHO leads global efforts to prevent water-related disease, advising governments on the development of health-based targets and regulations.</p>
+            <br>
+            <p>the WHO produces a series of water quality guidelines, including on drinking-water, safe use of wastewater, and recreational water quality. The water quality guidelines are based on managing risks, and since 2004 the Guidelines for drinking-water quality promote the Framework for safe drinking-water. The Framework recommends establishment of health-based targets, the development and implementation of water safety plans by water suppliers to most effectively identify and manage risks from catchment to consumer, and independent surveillance to ensure that water safety plans are effective and health-based targets are being met.</p> 
+            <br>
+            <p>Actions to be taken includes but are not limited to:</p>
+            <br>
+            <ul class="list-disc">
+                <li>Don't pour used oil, paint, or harsh chemicals down the drain. These can contaminate water treatment systems and pollute waterways. There are usually safe disposal options for these materials – check with your local waste management department.</li>
+                <li>Don't flush unused or expired medications down the toilet. These can end up in rivers and lakes, harming aquatic life. Look for take-back programs or responsible disposal options at pharmacies or hospitals.</li>
+                <li>Overuse of fertilizers and pesticides on lawns can wash away with rain, polluting nearby streams and lakes. There are natural alternatives for lawn care, and you can also plant native, low-maintenance vegetation that requires less upkeep.</li>
+                <li>Every drop counts! Fix leaky faucets, take shorter showers, and only run washing machines and dishwashers when full. This reduces the amount of wastewater that needs treatment and helps conserve this vital resource.</li>
+                <li>Stay informed about local water quality issues and support organizations working to protect your water sources. You can even participate in clean-up events to remove trash from local waterways.</li>
+            </ul>
+        </div>
+        <a href="https://www.who.int/news-room/fact-sheets/detail/drinking-water">Source 1</a>
+        <a href="https://www.who.int/health-topics/water-sanitation-and-hygiene-wash">Source 2</a>
+    </div>
+    <!-- Content end -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 wow fadeIn" data-wow-delay="0.1s" style="margin-top: 6rem;">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Learn</h4>
+                    <a class="btn btn-link" href="pollution.html">Pollution</a>
+                    <a class="btn btn-link" href="disasters.html">Natural Disasters</a>
+                    <a class="btn btn-link" href="do.html">What Can We Do</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Quick Links</h4>
+                    <a class="btn btn-link" href="floods.html">Floods</a>
+                    <a class="btn btn-link" href="earthquakes.html">Earthquakes</a>
+                    <a class="btn btn-link" href="solution.html">Solutions</a>
+                    <a class="btn btn-link" href="trash.html">Types of Trash</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Newsletter</h4>
+                    <p>Join our newsletter for weekly news about pollution around the world</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">Henry's Website.co.ltd</a>, All Right Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Logistica - Shipping Company Website Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow border-top border-5 border-primary sticky-top p-0">
+        <a href="index.html" class="navbar-brand bg-primary d-flex align-items-center px-4 px-lg-5">
+            <h2 class="mb-2 text-white">pollution and natural disasters</h2>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarcollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse" id="navbarcollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link ">home</a>
+                <!-- <a href="pollution.html" class="nav-item nav-link">pollution</a> -->
+                <!-- <a href="natural-disasters.html" class="nav-item nav-link">natural disasters</a> -->
+                <div class="nav-item dropdown">
+                    <a href="disasters.html" class="nav-item nav-link dropdown-toggle active" data-bs-toggle="dropdown">natural disasters</a>
+                    <div class="dropdown-menu fade-up m-0">
+                        <a href="floods.html" class="dropdown-item">floods</a>
+                        <a href="tsunamis.html" class="dropdown-item">tsunamis</a>
+                        <a href="storms.html" class="dropdown-item">storms</a>
+                        <a href="earthquakes.html" class="dropdown-item">earthquakes</a>
+                        <a href="wildfires.html" class="dropdown-item">wildfires</a>
+              
+                    </div>
+                </div>
+                <div class="nav-item dropdown ">
+                    <a href="pollution.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">pollution</a>
+                    <div class="dropdown-menu fade-up m-0">
+                        <a href="air.html" class="dropdown-item">air pollution</a>
+                        <a href="water.html" class="dropdown-item">water pollution</a>
+                        <a href="land.html" class="dropdown-item">land pollution</a>
+                        <a href="trash.html" class="dropdown-item">trash</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown ">
+                    <a href="do.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">what can we do</a>
+                    <div class="dropdown-menu fade-up m-0">
+                        <a href="background.html" class="dropdown-item">surabaya background</a>
+                        <a href="solution.html" class="dropdown-item">solutions</a>
+                        <a href="correlation.html" class="dropdown-item">correlations</a>
+                    </div>
+                </div>
+            </div>
+        <!--     <h4 class="m-0 pe-lg-5 d-none d-lg-block"><i class="fa fa-headphones text-primary me-3"></i>+012 345 6789</h4> -->
+        <!-- </div> -->
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Page Header Start -->
+    <div class="container-fluid bg-cover py-5" 
+    style="margin-bottom: 6rem;
+    background: linear-gradient(rgba(6, 3, 21, .5), rgba(6, 3, 21, .5)), url(img/floods.jpg) center center no-repeat;">
+        <div class="container py-5">
+            <h1 class="display-3 text-white mb-3 animated slideInDown">Floods</h1>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+    <!-- Content start -->
+    <div class="flex overflow-hidden flex-col w-2/3 pl-16">
+        <div class="tabgroup">
+            <button class="mx-8 tablinks py-6 px-8" onclick="openCity(event, 'London')" id="open">Overview</button>
+            <button class="mx-8 tablinks py-6 px-8" onclick="openCity(event, 'Paris')">Impact</button>
+            <button class="mx-8 tablinks py-6 px-8" onclick="openCity(event, 'Tokyo')">Response</button>
+        </div>
+    
+    <!-- Tab content -->
+        <div id="London" class="p-8 tabcontent">
+            <h3>Overview</h3>
+            <br>
+            <p>Floods are the most frequent type of natural disaster and occur when an overflow of water submerges land that is usually dry. Floods are often caused by heavy rainfall, rapid snowmelt or a storm surge from a tropical cyclone or tsunami in coastal areas.</p>
+            <br>
+        
+            <p>Floods can cause widespread devastation, resulting in loss of life and damages to personal property and critical public health infrastructure. Between 1998-2017, floods affected more than 2 billion people worldwide. People who live in floodplains or non-resistant buildings, or lack warning systems and awareness of flooding hazard, are most vulnerable to floods.</p>
+            <br>
+            <p>There are 3 common types of floods:</p>
+            <br>
+            <ul class="list-disc">
+                <li>Flash floods are caused by rapid and excessive rainfall that raises water heights quickly, and rivers, streams, channels or roads may be overtaken.</li>
+                <li>River floods are caused when consistent rain or snow melt forces a river to exceed capacity. </li>
+                <li>Coastal floods are caused by storm surges associated with tropical cyclones and tsunami.</li>
+            </ul>
+            <br>
+            <p>Between 80-90% of all documented disasters from natural hazards during the past 10 years have resulted from floods, droughts, tropical cyclones, heat waves and severe storms. Floods are also increasing in frequency and intensity, and the frequency and intensity of extreme precipitation is expected to continue to increase due to climate change.</p>
+        </div>
+        
+        <div id="Paris" class="p-8 tabcontent">
+            <h3>Impact</h3>
+            <br>
+            <p>Drowning accounts for 75% of deaths in flood disasters. Flood disasters are becoming more frequent and this trend is expected to continue. Drowning risks increase with floods particularly in low- and middle-income countries where people live in flood prone areas and the ability to warn, evacuate, or protect communities from floods is weak or only just developing. </p>
+            <br>
+            <p>Deaths also result from physical trauma, heart attacks, electrocution, carbon monoxide poisoning or fire associated with flooding. Often, only immediate traumatic deaths from flooding are recorded. </p>
+            <br>
+            <p>Floods can also have medium- and long-term health impacts, including:</p>
+            <br>
+            <ul class="list-disc">
+                <li>water- and vector-borne diseases, such as cholera, typhoid or malaria</li>
+                <li>injuries, such as lacerations or punctures from evacuations and disaster cleanup </li>
+                <li>Chemical Hazards</li>
+                <li>mental health effects associated with emergency situations</li>
+                <li>disrupted health systems, facilities and services, leaving communities without access to health care </li>
+                <li>damaged basic infrastructure, such as food and water supplies, and safe shelter</li>
+            </ul>
+        </div>
+        
+        <div id="Tokyo" class="p-8 tabcontent">
+            <h3>Response</h3>
+            <br>
+            <p>The magnitude of the physical and human costs from floods can be reduced if adequate emergency prevention, preparedness, response and recovery measures are implemented in a sustainable and timely manner. </p>
+            <br>
+            <p>WHO works with Member States to build resilient and proactive health systems that can anticipate the needs and challenges during emergencies so that they are more likely to reduce risks and respond effectively when needed.</p> 
+            <br>
+            <p>Actions to be taken includes but are not limited to:</p>
+            <br>
+            <ul class="list-disc">
+                <li>ensure appropriate food supplementation </li>
+                <li>restore primary care services, like immunization, child and maternal health, and mental health</li>
+                <li>assemble mobile health teams and outreach</li>
+                <li>conduct epidemic surveillance, early warning and response</li>
+            </ul>
+        </div>
+        <a href="https://www.who.int/health-topics/floods#tab=tab_1">source</a>
+    </div>
+    <!-- Content end -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 wow fadeIn" data-wow-delay="0.1s" style="margin-top: 6rem;">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Learn</h4>
+                    <a class="btn btn-link" href="pollution.html">Pollution</a>
+                    <a class="btn btn-link" href="disasters.html">Natural Disasters</a>
+                    <a class="btn btn-link" href="do.html">What Can We Do</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Quick Links</h4>
+                    <a class="btn btn-link" href="floods.html">Floods</a>
+                    <a class="btn btn-link" href="earthquakes.html">Earthquakes</a>
+                    <a class="btn btn-link" href="solution.html">Solutions</a>
+                    <a class="btn btn-link" href="trash.html">Types of Trash</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Newsletter</h4>
+                    <p>Join our newsletter for weekly news about pollution around the world</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">Henry's Website.co.ltd</a>, All Right Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script>
+        function openCity(evt, cityName) {
+            // Declare all variables
+            var i, tabcontent, tablinks;
+
+            // Get all elements with class="tabcontent" and hide them
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = -1; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+
+            // Get all elements with class="tablinks" and remove the class "active"
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = -1; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+
+            // Show the current tab, and add an "active" class to the button that opened the tab
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+        document.getElementById("open").click();
+    </script>
+</body>
+
+</html>

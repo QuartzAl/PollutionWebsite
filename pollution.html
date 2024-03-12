@@ -49,7 +49,7 @@
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarcollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarcollapse">
+        <div class=" navbar-collapse" id="navbarcollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
                 <a href="index.html" class="nav-item nav-link ">home</a>
                 <!-- <a href="pollution.html" class="nav-item nav-link">pollution</a> -->
@@ -90,13 +90,52 @@
 
 
     <!-- Page Header Start -->
-    <div class="container-fluid page-header py-5" style="margin-bottom: 6rem;">
+    <div class="container-fluid page-header py-5" style="margin-bottom: 6rem;
+    background: linear-gradient(rgba(6, 3, 21, .5), rgba(6, 3, 21, .5)), url(img/storm.jpg) center center no-repeat;">
         <div class="container py-5">
             <h1 class="display-3 text-white mb-3 animated slideInDown">Pollution</h1>
         </div>
     </div>
     <!-- Page Header End -->
-       
+       <!-- Content start -->
+    <div class="flex overflow-hidden flex-col w-2/3 pl-16">
+        <p>Pollution can be understood as nature's indigestion. It happens when we throw things into the environment faster than it can handle them.
+  These "things" can be:</p>
+            <ul>
+                <li>Physical substances: Trash, plastics, chemicals, fertilizers, even things like heat or light in excess.</li>
+                <li>Energy: This includes light pollution at night, excessive noise, or even thermal pollution from hot water dumped back into rivers.</li>
+            </ul>
+            <br>
+            <p>We can imagine our environment as a giant recycling plant. It can take care of some waste, break it down, and turn it into useful things. Leaves fall, decompose, and become nutrients for new plants. But if we overload the system with too much stuff, or the wrong kind of stuff, it gets jammed.  Pollution something like that jam-up.</p>
+            <p>Here's a breakdown of different types of pollution and how they enter the environment:</p>
+        <div class="tabgroup">
+            <button class="mx-8 tablinks py-6 px-8" onclick="openCity(event, 'London')" id="open">Land Pollution</button>
+            <button class="mx-8 tablinks py-6 px-8" onclick="openCity(event, 'Paris')">Water Pollution</button>
+            <button class="mx-8 tablinks py-6 px-8" onclick="openCity(event, 'Tokyo')">Air Pollution</button>
+        </div>
+    
+    <!-- Tab content -->
+        <div id="London" class="p-8 tabcontent">
+            <br>
+            <p>Land Pollution: This is the trash, chemicals, and other junk that gets dumped on land, littering our streets, overflowing landfills, and seeping into the soil.</p>
+        </div>
+        
+        <div id="Paris" class="p-8 tabcontent">
+            <p>Water Pollution: This is when harmful substances contaminate our water sources.
+ Raw sewage, runoff from farms loaded with fertilizers and pesticides, or industrial waste dumped into rivers and lakes all contribute to water pollution.</p>
+        </div>
+        
+        <div id="Tokyo" class="p-8 tabcontent">
+            <p>Air Pollution: This is the invisible enemy, a cocktail of gases and particles like smoke, soot, and dust that gets pumped into the air from factories, cars, and even burning things like leaves.</p>
+        </div>
+        <br>
+        <p>
+            These pollutants can travel through the environment.
+ Wind carries air pollution, rain washes trash and chemicals into waterways, and some pollutants can even seep down through the soil and contaminate groundwater.
+        </p>
+        <a href="https://www.britannica.com/science/pollution-environment">source</a>
+    </div>
+    <!-- Content end -->
 
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-light footer pt-5 wow fadeIn" data-wow-delay="0.1s" style="margin-top: 6rem;">
